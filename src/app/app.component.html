@@ -171,7 +171,7 @@
     .divider {
       height: 1px;
       width: 100%;
-      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      background: var(--red-to-yellow-to-purple-horizontal-gradient);
       margin-block: 1.5rem;
     }
   }
@@ -226,17 +226,17 @@
         </defs>
       </svg>
       <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <p>Welcome to my profile.</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">
         @for (item of [
-          { title: 'Explore the Docs', link: 'https://angular.dev' },
-          { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' },
-          { title: 'CLI Docs', link: 'https://angular.dev/tools/cli' },
-          { title: 'Angular Language Service', link: 'https://angular.dev/tools/language-service' },
-          { title: 'Angular DevTools', link: 'https://angular.dev/tools/devtools' },
+          { title: 'About Me', link: 'https://angular.dev' },
+          { title: 'Education', link: 'https://angular.dev/tutorials' },
+          { title: 'Work Experience', link: 'https://angular.dev/tools/cli' },
+          { title: 'Rewards & Recognition', link: 'https://angular.dev/tools/language-service' },
+          
         ]; track item.title) {
           <a
             class="pill"
@@ -261,7 +261,7 @@
       </div>
       <div class="social-links">
         <a
-          href="https://github.com/angular/angular"
+          href="https://github.com/keeyrun1"
           aria-label="Github"
           target="_blank"
           rel="noopener"
